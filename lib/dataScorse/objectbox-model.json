@@ -1,0 +1,407 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3455137915496984925",
+      "lastPropertyId": "13:8502004963890781653",
+      "name": "BlockModel",
+      "properties": [
+        {
+          "id": "1:5161098043147426232",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1728710702696184925",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "3:865066042129510171",
+          "name": "density",
+          "type": 6
+        },
+        {
+          "id": "4:9138269326732772952",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:1231703581385626346",
+          "name": "serial",
+          "type": 6
+        },
+        {
+          "id": "6:2437221872808341435",
+          "name": "number",
+          "type": 6
+        },
+        {
+          "id": "7:7057603258141935959",
+          "name": "time",
+          "type": 10
+        },
+        {
+          "id": "8:6251606503002622342",
+          "name": "scissor",
+          "type": 6
+        },
+        {
+          "id": "9:2535073314786204481",
+          "name": "width",
+          "type": 6
+        },
+        {
+          "id": "10:7568702163845376926",
+          "name": "lenth",
+          "type": 6
+        },
+        {
+          "id": "11:2668608093186993169",
+          "name": "hight",
+          "type": 6
+        },
+        {
+          "id": "12:1611262790749081081",
+          "name": "isfineshed",
+          "type": 1
+        },
+        {
+          "id": "13:8502004963890781653",
+          "name": "consumed",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8039096292186739903",
+      "lastPropertyId": "11:335857849449082254",
+      "name": "ChipBlockModel",
+      "properties": [
+        {
+          "id": "1:1723894473274148788",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1293029057892943547",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:2607745681577151905",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "4:3857570628258120567",
+          "name": "density",
+          "type": 8
+        },
+        {
+          "id": "5:3377470576308352055",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "6:7265631420908482003",
+          "name": "serial",
+          "type": 8
+        },
+        {
+          "id": "7:723616913922416494",
+          "name": "number",
+          "type": 8
+        },
+        {
+          "id": "8:5149715237723501012",
+          "name": "width",
+          "type": 8
+        },
+        {
+          "id": "9:2552889392819777382",
+          "name": "lenth",
+          "type": 8
+        },
+        {
+          "id": "10:858050447481691713",
+          "name": "scissor",
+          "type": 8
+        },
+        {
+          "id": "11:335857849449082254",
+          "name": "hight",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5797330138316851450",
+      "lastPropertyId": "4:723384786869852",
+      "name": "ChipFraction",
+      "properties": [
+        {
+          "id": "1:8132835544831914236",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:157453601323903806",
+          "name": "width",
+          "type": 8
+        },
+        {
+          "id": "3:4924068937966365569",
+          "name": "lenth",
+          "type": 8
+        },
+        {
+          "id": "4:723384786869852",
+          "name": "hight",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:410965004914081312",
+      "lastPropertyId": "12:949880256272972618",
+      "name": "ChipfinalProducut",
+      "properties": [
+        {
+          "id": "1:7274764983194720485",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3283176418001511197",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:3434422341257072723",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "4:911771025474443994",
+          "name": "density",
+          "type": 8
+        },
+        {
+          "id": "5:3089674340728734830",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "6:6693319399002574146",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "7:5549998984100479733",
+          "name": "number",
+          "type": 8
+        },
+        {
+          "id": "8:3722382306709174260",
+          "name": "width",
+          "type": 8
+        },
+        {
+          "id": "9:1528561907906733434",
+          "name": "lenth",
+          "type": 8
+        },
+        {
+          "id": "10:517577032372052196",
+          "name": "hight",
+          "type": 8
+        },
+        {
+          "id": "11:894017339438552224",
+          "name": "company",
+          "type": 9
+        },
+        {
+          "id": "12:949880256272972618",
+          "name": "scissor",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7615110658009924289",
+      "lastPropertyId": "13:1138613571369356743",
+      "name": "FinalProductModel",
+      "properties": [
+        {
+          "id": "1:4681896478672997865",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4145304442360558847",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "3:7278263872219757423",
+          "name": "density",
+          "type": 6
+        },
+        {
+          "id": "4:1197011711148628051",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:6472655731479756021",
+          "name": "amount",
+          "type": 6
+        },
+        {
+          "id": "6:3761276748047564009",
+          "name": "time",
+          "type": 10
+        },
+        {
+          "id": "7:3440643873443045227",
+          "name": "timeofOut",
+          "type": 10
+        },
+        {
+          "id": "8:3242371779239968884",
+          "name": "scissor",
+          "type": 6
+        },
+        {
+          "id": "9:5798283901082583866",
+          "name": "width",
+          "type": 8
+        },
+        {
+          "id": "10:5026807780936148087",
+          "name": "lenth",
+          "type": 8
+        },
+        {
+          "id": "11:2071953395680803433",
+          "name": "hight",
+          "type": 8
+        },
+        {
+          "id": "12:382043617507476524",
+          "name": "company",
+          "type": 9
+        },
+        {
+          "id": "13:1138613571369356743",
+          "name": "improted",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:8160946418251103931",
+      "lastPropertyId": "14:8118816709147143492",
+      "name": "FractionModel",
+      "properties": [
+        {
+          "id": "1:8699214578437706431",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1474711380641400945",
+          "name": "blockmodelmum",
+          "type": 6
+        },
+        {
+          "id": "3:1870283643852688121",
+          "name": "wedth",
+          "type": 6
+        },
+        {
+          "id": "4:7498198828486937025",
+          "name": "lenth",
+          "type": 6
+        },
+        {
+          "id": "5:4232062498063672592",
+          "name": "hight",
+          "type": 6
+        },
+        {
+          "id": "6:1270840015396424861",
+          "name": "isfineshed",
+          "type": 1
+        },
+        {
+          "id": "7:2813275664494154304",
+          "name": "density",
+          "type": 6
+        },
+        {
+          "id": "8:466902491546122287",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "9:7241474341902696291",
+          "name": "serial",
+          "type": 6
+        },
+        {
+          "id": "10:6348355151341220309",
+          "name": "hscissor",
+          "type": 6
+        },
+        {
+          "id": "11:9043315589196069637",
+          "name": "rscissor",
+          "type": 6
+        },
+        {
+          "id": "12:3333144627427371732",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "13:4285878529511015751",
+          "name": "time",
+          "type": 10
+        },
+        {
+          "id": "14:8118816709147143492",
+          "name": "timeofRscissor",
+          "type": 10
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "6:8160946418251103931",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

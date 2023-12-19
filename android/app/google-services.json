@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106186917009",
+    "project_id": "janson-11f24",
+    "storage_bucket": "janson-11f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106186917009:android:fcd892c86b7d3e3447ab30",
+        "android_client_info": {
+          "package_name": "com.example.jason_companyr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkWHl9E0KfHcvf5Ifx0WVvEXuvk2URhhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
